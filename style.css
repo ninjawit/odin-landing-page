@@ -120,24 +120,20 @@ img {
     background-color: #E5E7EB;
     color: #1F2937;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 15%;
     gap: 16px;
 }
 
-.quote {
-    font-size: 36px;
-    font-style: italic;
-    max-width: 1000px;
-    align-self: center;
-}
-
-.quote-credit {
+.lower-text {
+    align-self: flex-end;
     font-size: 20px;
     font-weight: 1000;
-    max-width: 1000px;
-    text-align: end;
+    margin: 0;
 }
 
-.text {
+.upper-text {
+    font-size: 36px;
+    font-style: italic;
+    align-self: center;
     margin: 0;
 }

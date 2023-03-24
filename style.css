@@ -113,3 +113,31 @@ img {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    justify-content: center;
+    padding: 100px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 1000px;
+    align-self: center;
+}
+
+.quote-credit {
+    font-size: 20px;
+    font-weight: 1000;
+    max-width: 1000px;
+    text-align: end;
+}
+
+.text {
+    margin: 0;
+}

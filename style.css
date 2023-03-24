@@ -27,6 +27,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
 button {
     max-width: 125px;
     background-color: #3882F6;
@@ -36,9 +42,10 @@ button {
     border-radius: 8px;
 }
 
-#snow {
+img {
     width: 100%;
     height: auto;
+    border-radius: 12px;
 }
 
 .first-contents-left > p {
@@ -84,3 +91,24 @@ button {
     padding-left: 64px;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-contents {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.chicken,
+.giraffe,
+.lion,
+.tooth {
+    min-width: 0;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

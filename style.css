@@ -27,6 +27,15 @@ h1 {
     margin: 0;
 }
 
+button {
+    max-width: 125px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
+}
+
 #snow {
     width: 100%;
     height: auto;
@@ -52,6 +61,9 @@ h1 {
 
 .first-contents-left {
     margin-right: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .first-section {

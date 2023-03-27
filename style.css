@@ -159,7 +159,7 @@ img {
 .fourth-section {
     background-color: #3882F6;
     border-radius: 8px;
-    margin: 48px 64px;
+    margin: 64px 64px;
     display: flex;
     justify-content: space-between;
     padding: 32px 64px;
@@ -176,3 +176,11 @@ img {
     align-self: center;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
